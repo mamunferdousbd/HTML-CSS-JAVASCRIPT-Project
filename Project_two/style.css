@@ -1,0 +1,70 @@
+/*reset Code Start  */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*reset Code End  */
+
+
+/* Post Starts Here */
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.posts {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.post {
+    width: 23%;
+    margin: 0.3rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    transition: all 0.4s;
+}
+
+.post:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+}
+
+.post_title {
+    color: red;
+    font-size: 22px;
+}
+
+.post_desc {
+    color: #777;
+    font-size: 16px;
+}
+
+
+/* Post End here*/
+
+
+/* responsive parts starts  here */
+
+@media screen and (max-width: 992px) {
+    .post {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .post {
+        width: 100%;
+    }
+}
+
+
+/* responsive parts End here */
